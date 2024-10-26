@@ -1,1 +1,15 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --accent-font: PressStart2P, fantasy;
+  --highlight-color: #ffffff;
+  --main-font: Inter-Variable, sans-serif;
+  --background-color: #ffffff;
+  --accent-color: #00cc14;
+  --contrast-color: #00cc14;
+  --body-font-weight: 700;
+  --title-font-weight: 400;
+  --stripes-gradient: #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px;
+  --gradient-saturation: #e7e7e7 0.01%, #1a1a1a 100%;
+  --outline-color: #000000;
+  --heart: #ff0000;
+}
