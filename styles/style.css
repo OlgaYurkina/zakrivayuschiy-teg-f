@@ -63,7 +63,7 @@
 }
 
 
-.filter1 {
+.filter__blur {
   filter: blur(1em);
 }
 
@@ -71,23 +71,23 @@
   filter: hue-rotate(75deg) opacity(0.8);
 }
 
-.filter2 {
+.filter__sepia {
   filter: sepia(70%);
 }
 
-.filter3 {
+.filter__contrast {
   filter: contrast(50%);
 }
 
-.filter4 {
+.filter__invert {
   filter: invert(0.9);
 }
 
-.filter5 {
+.filter__hue-rotate {
   filter: hue-rotate(80deg);
 }
 
-.filter6 {
+.filter__grayscale {
   filter: grayscale(1);
 }
 
