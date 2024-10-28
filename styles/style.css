@@ -376,13 +376,27 @@
   justify-content: center;
   cursor: pointer;
   position: relative;
-  inline-size: 340px;
-  block-size: 55px;
+  inline-size: 306px;
+  block-size: 84px;
   font-family: var(--accent-font), fantasy;
   gap: 8px;
   font-size: 14px;
   transition: 0.5s;
+  flex-direction: column;
 }
+
+.save-button__disk {
+  inline-size: 28px;
+  block-size: 28px;
+}
+
+/* .saving__save-button {
+  flex-direction: column;
+  justify-content: center;
+  inline-size: 306px;
+  block-size: 84px;
+  padding-block-end: 0;
+} */
 
 .contrast {
   color: var(--highlight-color);
@@ -425,16 +439,17 @@
 .form__text {
   font-family: var(--accent-font);
   line-height: 21px;
-  max-inline-size: 220px;
+  max-inline-size: 198px;
+  /* max-inline-size: 220px; */
 }
 
 .form__button {
   inline-size: 100%;
-  padding: 13px 0;
+  padding: 10px 0;
   box-shadow: none;
 }
 
-@media (width >= 375px) {
+@media (width > 375px) {
   .logo-container {
     margin-block-start: 136px;
   }
@@ -447,7 +462,7 @@
   .saving__save-button {
     flex-direction: row;
     justify-content: center;
-    inline-size: 337px;
+    inline-size: 335px;
     block-size: 55px;
     padding-block-end: 0;
   }
