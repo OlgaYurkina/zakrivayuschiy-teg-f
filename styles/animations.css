@@ -82,22 +82,6 @@
   fill: var(--accent-color);
 }
 
-.core {
-  fill: var(--background-color);
-  transition-property: fill;
-  transition-duration: 0.3s;
-  transition-timing-function: linear;
-  transition-delay: 0.03s;
-}
-
-.main-body {
-  fill: var(--background-color);
-  transition-property: fill;
-  transition-duration: 0.3s;
-  transition-timing-function: linear;
-  transition-delay: 0.05s;
-}
-
 .like-icon:active .core {
   fill: var(--heart);
 }
