@@ -433,7 +433,7 @@
   box-shadow: none;
 }
 
-@media (width >= 700px) {
+@media (width >= 375px) {
   .logo-container {
     margin-block-start: 136px;
   }
