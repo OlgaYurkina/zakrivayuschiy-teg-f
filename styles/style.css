@@ -39,7 +39,7 @@
   flex-direction: column;
   align-items: center;
   inline-size: clamp(23.438rem, 3.125rem + 65vw, 43.75rem);
-  margin: 100px 0;
+  margin: 100px;
   padding-block-end: 23px;
   gap: 23px;
   font-family: var(--accent-font);
@@ -129,12 +129,10 @@
 */
 
 .theme-menu__button {
-  padding: 0;
   background-color: inherit;
   border: none;
   font-size: 14px;
   margin-inline-start: 20px;
-  padding-bottom: 5px;
   position: relative;
   transition: opacity 0.3s ease;
 }
@@ -378,7 +376,6 @@
   justify-content: center;
   cursor: pointer;
   position: relative;
-  margin: 0 auto 80px;
   inline-size: 340px;
   block-size: 55px;
   font-family: var(--accent-font), fantasy;
