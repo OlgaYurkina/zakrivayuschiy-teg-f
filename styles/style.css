@@ -314,6 +314,10 @@
 
 .content__card-button:focus {
   outline: none;
+}
+
+.content__card-button:focus-visible {
+  outline: none;
   box-shadow: 2px 2px 0 0 var(--accent-color);
 }
 
